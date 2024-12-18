@@ -1,0 +1,69 @@
+C:\Users\k_hin\OneDrive\デスクトップ\Study>mkdir git_challenge
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study>
+C:\Users\k_hin\OneDrive\デスクトップ\Study>
+C:\Users\k_hin\OneDrive\デスクトップ\Study>cd git_challenge
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git --version
+git version 2.47.1.windows.1
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git init
+Initialized empty Git repository in C:/Users/k_hin/OneDrive/デスクトップ/Study/git_challenge/.git/
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>echo "" > hello_world.txt
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>echo "Hello, world!" >> hello_world.txt
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git add hello_world.txt
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git commit -m "hello_world.txtを追加"
+[main (root-commit) e86b8ee] hello_world.txtを追加
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>echo "こんにちは、世界！" >> hello_world.txt
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git add hello_world.txt
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git commit -m "日本語訳を追記"
+[main 6568ae9] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git log
+commit 6568ae9255efd93a76ef325de10f62371b5a651a (HEAD -> main)
+Author: GodEnel1111 <k.hino1230@gmail.com>
+Date:   Wed Dec 18 20:04:32 2024 +0900
+
+    日本語訳を追記
+
+commit e86b8ee2006cf087392331b7440495c8052feaba
+Author: GodEnel1111 <k.hino1230@gmail.com>
+Date:   Wed Dec 18 20:03:27 2024 +0900
+
+    hello_world.txtを追加
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>git log --oneline
+6568ae9 (HEAD -> main) 日本語訳を追記
+e86b8ee hello_world.txtを追加
+
+C:\Users\k_hin\OneDrive\デスクトップ\Study\git_challenge>
